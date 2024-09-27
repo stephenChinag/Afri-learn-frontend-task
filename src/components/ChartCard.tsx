@@ -1,13 +1,10 @@
 "use client";
 
-import dynamic from "next/dynamic";
 import React from "react";
 import {
   CircularProgressbarWithChildren,
   buildStyles,
 } from "react-circular-progressbar";
-
-// Dynamically import CircularProgressbar for client-side rendering
 
 import "react-circular-progressbar/dist/styles.css";
 

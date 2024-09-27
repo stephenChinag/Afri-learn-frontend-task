@@ -35,7 +35,12 @@ function Statistics() {
           title="Above Avg"
           total={30}
         />
-        <ProgressCard title="Average score" percentage={50} />
+        <ProgressCard
+          current={null}
+          total={null}
+          title="Average score"
+          percentage={50}
+        />
       </div>
 
       {/* Score per question topic */}

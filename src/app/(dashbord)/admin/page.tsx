@@ -1,7 +1,13 @@
+import Sidebar from "@/components/Sidebar";
 import React from "react";
 
 function AdminPage() {
-  return <div> AdminPage</div>;
+  return (
+    <div>
+      {" "}
+      <Sidebar />
+    </div>
+  );
 }
 
 export default AdminPage;

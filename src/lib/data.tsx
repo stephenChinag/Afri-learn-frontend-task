@@ -126,3 +126,21 @@ export const scoreData = [
     color: "#fecaca",
   }, // Red
 ];
+
+// Sample Data
+export const sampleQuestions = [
+  {
+    id: 1,
+    text: "This is a suspense novel about the main character who accidentally gets a notebook with the various tracks and plans of a mysterious figure. The main character starts to decipher the contents of the notebook and finds that it contains mysterious codes and riddles.",
+    topic: "Farm tools",
+    type: "Single choice",
+    points: 1,
+    options: [
+      "Answer option 1",
+      "Answer option 2",
+      "Answer option 3",
+      "Answer option 4",
+    ],
+    selectedOption: 0,
+  },
+];

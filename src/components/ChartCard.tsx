@@ -8,11 +8,7 @@ import {
 } from "react-circular-progressbar";
 
 // Dynamically import CircularProgressbar for client-side rendering
-const CircularProgressbar = dynamic(
-  () =>
-    import("react-circular-progressbar").then((mod) => mod.CircularProgressbar),
-  { ssr: false }
-);
+
 import "react-circular-progressbar/dist/styles.css";
 
 interface ProgressCardProps {

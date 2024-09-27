@@ -1,7 +1,3 @@
-import { title } from "process";
-
-export let role = "admin";
-
 export const menuItems = [
   {
     title: "Test configuration",

@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 :root {
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: #f1f5f8;
 }

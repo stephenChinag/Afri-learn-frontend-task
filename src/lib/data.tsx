@@ -9,7 +9,7 @@ export const menuItems = [
       {
         icon: "/basic-settings.svg",
         label: "Basic Settings",
-        href: "/admin/basic-serring",
+        href: "#",
       },
       {
         icon: "/question-manager.svg",
@@ -19,22 +19,22 @@ export const menuItems = [
       {
         icon: "/question-settings.svg",
         label: "Question Setting",
-        href: "/admin/question",
+        href: "#",
       },
       {
         icon: "/test-start-page.svg",
         label: "Test Start Page",
-        href: "/admin/test-start",
+        href: "#",
       },
       {
         icon: "/time-settings.svg",
         label: "Time Settings",
-        href: "/admin/time-settings",
+        href: "#",
       },
       {
         icon: "/grading.svg",
         label: "Grading And Summary",
-        href: "/admin/grading",
+        href: "#",
       },
     ],
   },
@@ -44,12 +44,12 @@ export const menuItems = [
       {
         icon: "/test-results.svg",
         label: "Test Results",
-        href: "/admin/test-results",
+        href: "#",
       },
       {
         icon: "/test-sheet.svg",
         label: "Test Sheets Review",
-        href: "/admin/test-sheet",
+        href: "#",
       },
       {
         icon: "/statistics.svg",

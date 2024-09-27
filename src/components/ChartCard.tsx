@@ -18,8 +18,8 @@ import "react-circular-progressbar/dist/styles.css";
 interface ProgressCardProps {
   title: string;
   percentage: number;
-  total: number;
-  current: number;
+  total?: number | null;
+  current?: number | null;
 }
 
 const ProgressCard: React.FC<ProgressCardProps> = ({
@@ -58,7 +58,7 @@ const ProgressCard: React.FC<ProgressCardProps> = ({
             <h1 className="font-semibold text-[20px] md:text-[25px] leading-[30px] md:leading-[36px]">
               {percentage}%
             </h1>
-            {current !== undefined && total !== undefined && (
+            {current !== null && total !== null && (
               <span>{`${current} / ${total}`}</span>
             )}
           </div>
